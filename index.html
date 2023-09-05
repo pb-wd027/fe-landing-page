@@ -15,7 +15,7 @@
       <div class="container">
         <a href="#"><img src="images/logo.svg" alt="Manage"></a>
         <nav class="primary-navigation">
-          <ul role="list" class="nav-list">
+          <ul aria-label="Primary" class="nav-list">
             <li><a href="#"></a>Pricing</li>
             <li><a href="#"></a>Product</li>
             <li><a href="#"></a>About Us</li>
@@ -52,7 +52,7 @@
               <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
             </div>
             <div>
-              <ul role="list">
+              <ul class="numbered-items" role="list">
                 <li>
                   <h3 class="fs-600 fw-bold">Lorem ipsum dolor</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti, facilis voluptates atque asperiores rem in dolorum saepe, quo excepturi dicta, similique cum. Obcaecati sed, sint odio magni nam dolorem?</p>
@@ -70,7 +70,64 @@
           </div>
         </div>
       </section>
+
+      <section class="carousel">
+        <h2 class="fs-secondary-hedding">What they've said</h2>
+        <!-- Carousel here -->
+        <button class="button">Get Started</button>
+      </section>
+
+      <section class="cta | bg-primary-400 text-neutral-100">
+        <div class="container">
+          <div class="event-columns">
+            <div>
+              <p class="fs-secondary-heading fw-bold"></p>
+            </div>
+            <div>
+              <button class="button" data-type="inverted">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="bg-neutral-900 text-neutral-100">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <a href="#"><img src="images/logo.svg" alt="Manage"></a>
+            <ul role="list" aria-label="Social links">
+              <li><a area-lable="facebook" href="#"></a></li>
+              <li><a area-lable="youtube" href="#"></a></li>
+              <li><a area-lable="twitter" href="#"></a></li>
+              <li><a area-lable="pinterest" href="#"></a></li>
+              <li><a area-lable="instagram" href="#"></a></li>
+            </ul>
+          </div>
+          <div>
+            <nav class="footer-nav">
+              <ul aria-lable="Footer" role="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#"></a>About Us</li>
+                <li><a href="#"></a>Careers</li>
+                <li><a href="#"></a>Community</li>
+                <li><a href="#"></a>Privacy Policy</li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <form action="">
+              <input type="email">
+              <button class="button">Go</button>
+            </form>
+            <p>Copyright 2020. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
